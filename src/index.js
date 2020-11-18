@@ -8,5 +8,3 @@ export const todoList = new TodoList();
 
 //todoList.todos.forEach( todo => crearTodoHtml( todo ) );
 todoList.todos.forEach( crearTodoHtml ); // Es lo mismo que la instruccion anterior
-
-console.log(todoList);
