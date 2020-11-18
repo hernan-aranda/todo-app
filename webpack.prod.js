@@ -80,12 +80,6 @@ module.exports = {
             // filename: '[name].[hash].css',
             ignoreOrder: false
         }),
-        new CopyWebpackPlugin({
-            patterns: [ {
-                from: 'src/assets',
-                to: 'assets/'
-            } ]
-        }),
         new MinifyPlugin()
     ]
 }
